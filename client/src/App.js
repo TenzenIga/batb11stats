@@ -14,7 +14,7 @@ class App extends Component {
   }
 }
 componentDidMount(){
-    fetch('http://localhost:5000/api/games')
+    fetch('/api/games')
       .then(res => res.json())
       .then(
         (result) =>{
